@@ -27,10 +27,25 @@ print(125_000)
 #This is used for decimals
 3.14159
 
-# #Boolean
+#Boolean
 #data type which is always either True or False
 
 True
 False
 
 print(3 * (3 + 3) / 3 - 3)
+
+#Round Numbers
+
+#Will round into a whole number by default
+print(round(8/3))
+
+#If you want to round to two decimal places add a comma and specify which spot
+print(round(8/3,2))
+print(round(8/3,3))
+
+#F Strings
+
+#Used to print an integer/float/booleans in a string
+
+print(f"your score is {3}")

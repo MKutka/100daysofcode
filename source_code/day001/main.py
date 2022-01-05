@@ -1,3 +1,3 @@
 print("Day 1 - Python Print Function")
-print("The fucntion is declared like this:")
+print("The function is declared like this:")
 print("print('what to print')")

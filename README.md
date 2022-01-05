@@ -3,3 +3,4 @@ Hello this is my repository where I will be completing the following course http
 
 There is a group of people who are actively working on this course. If you want to join us visit: https://artofneteng.com/iaatj and let us know in the #100daysofcode channel.
 
+Code will be stored in the source_code -> day0xx directories

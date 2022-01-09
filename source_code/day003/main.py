@@ -51,6 +51,36 @@
 # if condition 3:
 #     do C
 
+# height = int(input("What is your height? "))
+# bill = 0
+
+# if height >= 120:
+#     print("you can ride the rollercoaster")
+#     age = int(input("Hello, how old are you? "))
+#     if age < 12:
+#         bill = 5
+#         print("Child tickets are $5")
+#     elif age <= 18:
+#         bill = 7
+#         print("Youth tickets are $7")
+#     else:
+#         bill = 12
+#         print("Adult tickets are $12")
+    
+#     want_photo = input("Do you want a photo taken? Y or N? ")
+#     if want_photo == "Y":
+#         #adds $3 to their bill
+#         bill += 3
+#     print(f"Your final bill is ${bill}")
+# else:
+#     print("sorry you're not allowed to ride")
+
+## Logical Operators
+# Uses Boolean to identify
+# A and B
+# C or D
+# not E
+
 height = int(input("What is your height? "))
 bill = 0
 
@@ -63,20 +93,16 @@ if height >= 120:
     elif age <= 18:
         bill = 7
         print("Youth tickets are $7")
+    elif age >= 45 and age <= 55:
+        print("Everything is okay have a free ride on us")
     else:
         bill = 12
         print("Adult tickets are $12")
     
     want_photo = input("Do you want a photo taken? Y or N? ")
-    if want_photo == "Y":
+    if want_photo == "Y" or "y":
         #adds $3 to their bill
         bill += 3
     print(f"Your final bill is ${bill}")
 else:
     print("sorry you're not allowed to ride")
-
-## Logical Operators
-# Uses Boolean to identify
-# A and B
-# C or D
-# not E

@@ -11,7 +11,6 @@ BMI = int(weight) / float(height) ** 2
 int_BMI = int(BMI)
 
 #if/else statements
-
 if int_BMI < 18.5:
     print(f"You're BMI is {int_BMI}, you are underweight.")
 elif int_BMI <= 25:
